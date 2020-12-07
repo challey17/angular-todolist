@@ -2,6 +2,5 @@
 ngFor is a angular built-in structural directive, used like html atrribute 
 // repeater directive, way to present a list of items/ loop through array (!)
 -->
-<ul *ngFor="let todo of todos">
-  <li>{{ todo.title }}</li>
-</ul>
+<!-- This naming convention isn't great. Todo waaaaay overused an not clear-->
+<app-todo-item *ngFor="let todo of todos" [todo]="todo"> </app-todo-item>
