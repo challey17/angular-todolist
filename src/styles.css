@@ -32,6 +32,8 @@ a {
   background: #666;
 }
 
+/* HEADER */
+
 .header {
   background: #333;
   color: #fff;
@@ -42,4 +44,16 @@ a {
 .header a {
   color: #fff;
   text-decoration: none;
+}
+
+/*FORM , ADD-TODO */
+.form {
+  display: flex;
+}
+.form input[type="text"] {
+  flex: 10;
+  padding: 5px;
+}
+.form input[type="submit"] {
+  flex: 2;
 }

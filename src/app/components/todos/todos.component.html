@@ -3,6 +3,7 @@ ngFor is a angular built-in structural directive, used like html atrribute
 // repeater directive, way to present a list of items/ loop through array (!)
 -->
 <!-- This naming convention isn't great. Todo waaaaay overused an not clear-->
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
 <app-todo-item
   *ngFor="let todo of todos"
   [todo]="todo"
